@@ -1,0 +1,9 @@
+# ResNet-20 with weight decay switched off; everything else as the baseline.
+name: resnet20_nowd
+depth: 20
+residual: true
+bn: true
+optimizer: sgd
+lr: 0.1
+momentum: 0.9
+weight_decay: 0.0

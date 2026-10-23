@@ -1,0 +1,9 @@
+# ResNet-20 without BatchNorm at lr 0.01. BN is what allows lr 0.1, so giving the no-BN net only lr 0.1 would confound 'no BN' with 'lr too high for this net'.
+name: resnet20_nobn_lr001
+depth: 20
+residual: true
+bn: false
+optimizer: sgd
+lr: 0.01
+momentum: 0.9
+weight_decay: 1.0e-4

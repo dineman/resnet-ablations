@@ -1,0 +1,9 @@
+# Adam with L2 regularization (weight_decay is added to the gradient, then divided by sqrt(v)).
+# lr 1e-3 is the standard Adam default; same step schedule as SGD.
+name: resnet20_adam
+depth: 20
+residual: true
+bn: true
+optimizer: adam
+lr: 1.0e-3
+weight_decay: 1.0e-4

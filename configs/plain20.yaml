@@ -1,0 +1,9 @@
+# Plain-20: ResNet-20 with every shortcut removed. Same layers, params, init and recipe.
+name: plain20
+depth: 20
+residual: false
+bn: true
+optimizer: sgd
+lr: 0.1
+momentum: 0.9
+weight_decay: 1.0e-4

@@ -1,0 +1,9 @@
+# AdamW, decoupled weight decay: theta <- theta - lr * wd * theta.
+# wd = 0.01 makes the per-step shrinkage lr*wd = 1e-3 * 1e-2 = 1e-5, identical to the SGD baseline's 0.1 * 1e-4.
+name: resnet20_adamw
+depth: 20
+residual: true
+bn: true
+optimizer: adamw
+lr: 1.0e-3
+weight_decay: 1.0e-2

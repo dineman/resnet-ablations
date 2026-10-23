@@ -1,0 +1,9 @@
+# ResNet-20, the paper's CIFAR recipe (He et al. 2015, Sec. 4.2). Baseline for every ablation.
+name: resnet20
+depth: 20
+residual: true
+bn: true
+optimizer: sgd
+lr: 0.1
+momentum: 0.9
+weight_decay: 1.0e-4

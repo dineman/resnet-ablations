@@ -1,0 +1,9 @@
+# Plain-56: the network that shows the degradation problem.
+name: plain56
+depth: 56
+residual: false
+bn: true
+optimizer: sgd
+lr: 0.1
+momentum: 0.9
+weight_decay: 1.0e-4

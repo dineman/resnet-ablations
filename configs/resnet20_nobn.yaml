@@ -1,0 +1,9 @@
+# ResNet-20 without BatchNorm, at the baseline lr 0.1 (convs get biases instead).
+name: resnet20_nobn
+depth: 20
+residual: true
+bn: false
+optimizer: sgd
+lr: 0.1
+momentum: 0.9
+weight_decay: 1.0e-4

@@ -1,0 +1,5 @@
+numpy
+matplotlib
+pytest
+pyyaml
+torch>=2.3
